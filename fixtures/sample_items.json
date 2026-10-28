@@ -1,0 +1,50 @@
+[
+  {
+    "id": "l1",
+    "community": "r/smallbusiness",
+    "title": "Plumbing company not showing up on Google Maps, should we hire someone?",
+    "text": "We have 80 reviews but competitors with 10 show up above us. Is local SEO worth paying for?",
+    "url": "https://example.com/sample/l1",
+    "age_hours": 3
+  },
+  {
+    "id": "l2",
+    "community": "r/GoogleMyBusiness",
+    "title": "Can anyone recommend an SEO who actually knows Google Business Profile?",
+    "text": "Our dental clinic dropped out of the map pack last month and we don't know why.",
+    "url": "https://example.com/sample/l2",
+    "age_hours": 5
+  },
+  {
+    "id": "l3",
+    "community": "r/localseo",
+    "title": "[For Hire] Local SEO expert, 10 years experience",
+    "text": "Google Business Profile optimisation, citations, reviews.",
+    "url": "https://example.com/sample/l3",
+    "age_hours": 2
+  },
+  {
+    "id": "l4",
+    "community": "r/smallbusiness",
+    "title": "How we grew my agency to 40 clients",
+    "text": "Most of our local SEO clients came from referrals, here's what my agency did.",
+    "url": "https://example.com/sample/l4",
+    "age_hours": 4
+  },
+  {
+    "id": "l5",
+    "community": "r/smallbusiness",
+    "title": "What accounting software do you use?",
+    "text": "Switching from spreadsheets, any recommendations?",
+    "url": "https://example.com/sample/l5",
+    "age_hours": 1
+  },
+  {
+    "id": "l6",
+    "community": "r/Entrepreneur",
+    "title": "Looking for an SEO for my landscaping business",
+    "text": "Small team, about 30 jobs a month, want more local calls.",
+    "url": "https://example.com/sample/l6",
+    "age_hours": 30
+  }
+]

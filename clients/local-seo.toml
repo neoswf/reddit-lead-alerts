@@ -1,0 +1,59 @@
+# Example: people looking for help with local SEO.
+#
+# Change the name, add your city under [location], and adjust the phrases after a week of alerts.
+# Files whose name starts with "_" are examples and are ignored.
+
+name = "Local SEO leads"
+paused = false
+service_type = "Local SEO for small businesses"
+
+[schedule]
+interval_minutes = 30   # the tool never checks more often than every 30 minutes
+
+[[sources]]
+type = "reddit_rss"
+# Business owners ask in the first three. r/SEO and r/Entrepreneur are noisier, but buyers post there too.
+subreddits = ["smallbusiness", "GoogleMyBusiness", "localseo", "SEO", "Entrepreneur"]
+
+[match]
+max_age_hours = 12      # older posts are skipped; a reply in the first hours gets read most
+include = [
+  "local seo",
+  "google business profile",
+  "google my business",
+  "gmb",
+  "map pack",
+  "google maps ranking",
+  "not showing up on google",
+  "not showing on google maps",
+  "looking for an seo",
+  "recommend an seo",
+  "hire an seo",
+  "need help with seo",
+  "seo agency",
+  "seo company",
+  "seo consultant",
+  "seo freelancer",
+]
+exclude = [
+  "[for hire]",
+  "for hire",
+  "[offer]",
+  "my agency",
+  "my seo agency",
+  "our agency",
+  "we offer",
+  "check out my",
+  "my course",
+  "giveaway",
+]
+
+[location]
+terms = []              # e.g. ["Denver", "Aurora"]
+required = false        # set to true to only get posts that mention one of your places
+
+[notify]
+channel = "telegram"
+token_env = "TELEGRAM_BOT_TOKEN"     # names of the GitHub secrets, not the values
+chat_id_env = "TELEGRAM_CHAT_ID"
+max_alerts_per_run = 10
